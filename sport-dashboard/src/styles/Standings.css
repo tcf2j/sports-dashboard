@@ -1,0 +1,22 @@
+
+.standings-container {
+    border: solid 1px lightgrey;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.standings-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.standings-left {
+    display: flex;
+    gap: 1rem;
+}
+
+.standings-right {
+    display: flex;
+    gap: 1rem;
+}

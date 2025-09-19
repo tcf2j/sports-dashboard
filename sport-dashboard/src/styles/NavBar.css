@@ -1,0 +1,19 @@
+
+.mainContainer {
+    background-color: #0E1724; 
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nav-1,
+.nav-2,
+.nav-3,
+.nav-4{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
