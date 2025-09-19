@@ -1,4 +1,4 @@
-Interactive Sports Dashboard
+##  Interactive Sports Dashboard
 
 An interactive React-based web app that delivers real-time sports stats, standings, and game insights using live data from sports APIs. Designed with a clean, responsive UI for fans who want quick access to the latest action.
 
