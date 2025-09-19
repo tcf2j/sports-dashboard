@@ -1,0 +1,33 @@
+
+
+.gamesChart-container{
+    width: 300px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #131b25;
+}
+
+.gamesChart-c1,
+.gamesChart-c2{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.gameCardInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gamesChart-topleft{
+    border: solid 1px rgb(211, 211, 211, 0.1);
+    border-radius: 2px;
+}
+
+.gamesChart-top{
+    display: flex;
+}

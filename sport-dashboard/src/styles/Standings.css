@@ -1,22 +1,90 @@
 
 .standings-container {
-    border: solid 1px lightgrey;
-    padding-left: 20px;
-    padding-right: 10px;
-    width: 100%;
+    border: solid 1px rgb(211, 211, 211, 0.1);
+    border-radius: 8px;
+    width: 600px;
+    height: fit-content;
 }
 
 .standings-header {
     display: flex;
     justify-content: space-between;
+    background-color: #0A1422;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
-.standings-left {
+.standingsHeader-left{
     display: flex;
     gap: 1rem;
 }
 
-.standings-right {
+.standingsHeader-right {
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.nfcEast-section,
+.nfcNorth-section {
     display: flex;
     gap: 1rem;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+
+
+.standing-01,
+.standing-02,
+.standing-03,
+.standing-04,
+.standing-11,
+.standing-12,
+.standing-13,
+.standing-14{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.nfcNorth-section,
+.standing-01,
+.standing-03,
+.standing-12,
+.standing-14{
+    background-color: #0A1422;
+}
+
+.nfcEast-section,
+.standing-02,
+.standing-04,
+.standing-11,
+.standing-13{
+    background-color: #162333;
+}
+
+.s01-left,
+.s02-left,
+.s03-left,
+.s04-left,
+.s11-left,
+.s12-left,
+.s13-left,
+.s14-left{
+    display: flex;
+    gap: 2.3rem;
+}
+
+.s01-right,
+.s02-right,
+.s03-right,
+.s04-right,
+.s11-right,
+.s12-right,
+.s13-right,
+.s14-right {
+    display: flex;
+    gap: 1.7rem
 }

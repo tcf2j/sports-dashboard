@@ -1,10 +1,10 @@
 import React from 'react'
 import "../styles/NavBar.css"
-import football from '../assets/imgs/football.svg'
-import house from '../assets/imgs/house.svg'
-import shirt from '../assets/imgs/shirt.svg'
-import people from '../assets/imgs/people.svg'
-import gear from '../assets/imgs/gear.svg'
+import football from '../assets/imgs/navImgs/football.svg'
+import house from '../assets/imgs/navImgs/house.svg'
+import shirt from '../assets/imgs/navImgs/shirt.svg'
+import people from '../assets/imgs/navImgs/people.svg'
+import gear from '../assets/imgs/navImgs/gear.svg'
 
 
 
